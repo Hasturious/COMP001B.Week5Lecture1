@@ -5,23 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        nav {
+            height: 75px;
+            display: grid;
+            text-align: center;
+            background-color: #ff0000;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        main {
+            height: auto;
+            display: grid;
+            text-align: center;
+            background-color: #0000ff;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            height: 40px;
+            display: grid;
+            text-align: center;
+            background-color: #00ff00;
+            margin-bottom: 10px;
+        }
+        
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-          <nav class="col-md-3">
-            <ul>
-                <li><a href="index.html"> CSS Grid</a></li>
-                <li><a href="bootStrap.html"> BootStrap Grid</a></li>
-            </ul>
-          </nav>
-          <main class="col-md-6">
+    <div class="container-fluid">
+        <nav>
+            <a href="index.html"> CSS Grid</a> <a href="bootStrap.html"> BootStrap Grid</a>
+        </nav>
+        <main>
             <p>Main</p>
         </main>
-          <footer class="col-md-3">
+        <footer>
             <p>Footer</p>
         </footer>
-        </div>
-      </div>
+    </div>
 </body>
 </html>
